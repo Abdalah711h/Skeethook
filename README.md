@@ -4,7 +4,7 @@
     NOTE : This script is made for CounterBlox (CB)
 
     To run this script you can use Krnl / synapsex 
-    However support for any other executer is unknown. 
+    However support for any other executers is unknown. 
     
     If you find any bugs please let us know in the discord
 </p>
