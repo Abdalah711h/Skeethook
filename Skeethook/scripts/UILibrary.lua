@@ -155,10 +155,10 @@ local library = {
 	windows = {},
     pointers = {},
     settings = {
-        guiname = "Hexagon",
-		title = "Hexagon",
+        guiname = "Skeethook",
+		title = "Skeethook",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
-        footer = " wassup",
+        footer = " By Legend developer team",
         modal = true,
         font = Enum.Font.SourceSans,
         textsize = 16,
