@@ -1,2 +1,20 @@
-# Skeethook
-Skeethook just a fun open src script based from Hexagon this is something for me to learn lua since I am bored 
+<p align="center">
+    Skeethook
+
+    NOTE : This script is made for CounterBlox (CB)
+
+    To run this script you can use Krnl / synapsex 
+    However support for any other executer is unknown. 
+    
+    If you find any bugs please let us know in the discord
+</p>
+
+[![discord](https://img.shields.io/badge/Discord-Legend-8080c0)](https://discord.gg/mvyBt5GkJX)
+
+[![Release](https://img.shields.io/badge/Release-0.1.0-80FF5)](https://github.com/Legend-Development/Skeethook/releases)
+
+[![Showcase](https://img.shields.io/badge/Showcase-Soon-FF5555)]()
+
+    For personal contact you can contact me @ discord : 
+    
+    Shae#0666 
