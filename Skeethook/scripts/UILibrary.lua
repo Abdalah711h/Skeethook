@@ -156,7 +156,7 @@ local library = {
     pointers = {},
     settings = {
         guiname = "Skeethook",
-		title = "Skeethook",
+		title = "Skeethook Verson 0.1.0",
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " By Legend developer team",
         modal = true,
@@ -165,14 +165,15 @@ local library = {
         textstroke = true
     },
     theme = {
-        buttons = Color3.fromRGB(20, 200, 20), -- toggle, sliders colors
-        text = Color3.fromRGB(235, 235, 235),
-        textboxtext = Color3.fromRGB(145, 145, 145),
-        main = Color3.fromRGB(30, 30, 30),
-        outline = Color3.fromRGB(60, 60, 60),
-        tabholder = Color3.fromRGB(35, 35, 35),
-        tabbutton = Color3.fromRGB(30, 30, 30),
-        tabselected = Color3.fromRGB(50, 50, 50)
+        buttons = Color3.fromRGB(255, 155, 155), -- toggle, sliders colors
+        text = Color3.fromRGB(235, 235, 235), -- Text color
+        textboxtext = Color3.fromRGB(145, 145, 145), -- Text box color
+        main = Color3.fromRGB(30, 30, 30), -- Background
+        outline = Color3.fromRGB(60, 60, 60), -- Outline of Background
+        tabholder = Color3.fromRGB(35, 35, 35), -- Tab Background
+        tabbutton = Color3.fromRGB(30, 30, 30), -- Tab
+        tabselected = Color3.fromRGB(50, 50, 50) -- Tab selected
+--  	NAME = Color3.fromRGB(RED, GREEN, BLUE)
     }
 }
 
