@@ -616,6 +616,10 @@ VisualsTabCategoryPlayers:AddToggle("Boxes", false, "VisualsTabCategoryPlayersBo
     ESP.Boxes = val
 end)
 
+VisualsTabCategoryPlayers:AddToggle("Chams", false, "VisualsTabCategoryPlayersChams", function(val)
+    ESP.Chams = val
+end)
+
 VisualsTabCategoryPlayers:AddToggle("Show Team", false, "VisualsTabCategoryPlayersShowTeam", function(val)
     ESP.ShowTeam = val
 end)
@@ -638,6 +642,11 @@ end)
 VisualsTabCategoryPlayers:AddColorPicker("Enemy Color", Color3.new(1,0,0), "VisualsTabCategoryPlayersEnemyColor", function(val)
     ESP.EnemyColor = val
 end)
+
+VisualsTabCategoryPlayers:AddColorPicker("Chams Color", Color3.new(1,0,0), "VisualsTabCategoryPlayersChamsColor", function(val)
+    ESP.ChamsColor = val
+end)
+
 
 local VisualsTabCategoryDroppedESP = VisualsTab:AddCategory("Dropped ESP", 1)
 
@@ -1639,26 +1648,7 @@ end)
 
 local SettingsTabCategoryCredits = SettingsTab:AddCategory("Credits", 2)
 
-SettingsTabCategoryCredits:AddLabel("Script - Pawel12d#0272")
-
-SettingsTabCategoryCredits:AddLabel("ESP - Modified Kiriot ESP")
-
-SettingsTabCategoryCredits:AddLabel("UI Library - Modified Phantom Ware")
-
-SettingsTabCategoryCredits:AddLabel("")
-
-SettingsTabCategoryCredits:AddLabel("Special Thanks To:")
-
-SettingsTabCategoryCredits:AddLabel("ny#2817")
-
-SettingsTabCategoryCredits:AddLabel("neeX#3712")
-
-SettingsTabCategoryCredits:AddLabel("MrPolaczekPL#1884")
-
-SettingsTabCategoryCredits:AddLabel("")
-
-SettingsTabCategoryCredits:AddLabel("Don't steal credits or burn in hell.")
-
+SettingsTabCategoryCredits:AddLabel("Script - Shae#0666");
 
 
 -- Other

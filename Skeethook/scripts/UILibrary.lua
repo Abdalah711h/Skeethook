@@ -156,7 +156,7 @@ local library = {
     pointers = {},
     settings = {
         guiname = "Skeethook",
-		title = "Skeethook Verson 0.1.0",
+		title = "Skeethook Verson 0.2.0", -- For a major update middle for minor update last if major = 10 change the first one
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " By Legend developer team",
         modal = true,
@@ -168,7 +168,7 @@ local library = {
         buttons = Color3.fromRGB(255, 30, 30), -- toggle, sliders colors
         text = Color3.fromRGB(235, 235, 235), -- Text color
         textboxtext = Color3.fromRGB(145, 145, 145), -- Text box color
-        main = Color3.fromRGB(255, 30, 30), -- Background
+        main = Color3.fromRGB(30, 30, 255), -- Background
         outline = Color3.fromRGB(60, 60, 60), -- Outline of Background
         tabholder = Color3.fromRGB(35, 35, 35), -- Tab Background
         tabbutton = Color3.fromRGB(30, 30, 30), -- Tab
