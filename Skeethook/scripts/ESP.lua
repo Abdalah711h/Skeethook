@@ -241,29 +241,27 @@ function boxBase:Update()
     end
 
     -- fucking around with this might not work might do who knows
-    --if ESP.Chams then
-    --    if not Char:FindFirstChild("Sky") then
-    --        Instance.new('Sky', Char)
-    --        spawn(function()  wait(2)
-    --            for _,obj in pairs(Char:GetChildren()) do
-    --                if obj:IsA("BasePart") and obj.Name ~= 'HumanoidRootPart' and obj.Name ~= 'Head' then
-    --                    local cham = Instance.new("BoxHandleAdornment",obj)
-    --                    cham.Color3 = Color
-    --                    cham.AlwaysOnTop = true
-    --                    cham.Size = Vector3.new(0.25,obj.Size.Y,0.25)
-    --                    cham.ZIndex = 1
-    --                    cham.Adornee = obj
-    --                    cham.Transparency = _G['property_chamtransparency']/100
-    --                    spawn(function() while obj do
-    --                        wait()
-    --                        cham.Transparency = _G['property_chamtransparency']/100
-    --                        local c = loadstring(_G['property_enemychamscolor'])()
-    --                        cham.Color3 = Color3.fromHSV(c[1],c[2],c[3])
-    --                    end
-    --                    end)
-    --                end
-    --            end
-    --        end)
+    if ESP.Chams then
+        Instance.new('Sky',character)
+        spawn(function() wait(2)
+            for _,obj in pairs(character:GetChildren()) do
+                if obj:IsA("BasePart") and obj.Name ~= 'HumanoidRootPart' and obj.Name ~= 'Head' then
+                    local cham = Instance.new("BoxHandleAdornment",obj)
+                    cham.Color3 = color
+                    cham.AlwaysOnTop = true
+                    cham.Size = Vector3.new(0.25,obj.Size.Y,0.25)
+                    cham.ZIndex = 1
+                    cham.Adornee = obj
+                    cham.Transparency = _G['property_transparency']/100
+                    spawn(function() while obj do
+                        wait()
+                        cham.Transparency = _G['property_transparency']/100
+                        local c = loadstring(_G['property_endomysium'])()
+                        cham.Color3 = Color3.fromHSV(c[1],c[2],c[3])
+                    end
+                    end)
+                end
+            end
 
             if ESP.ShowInfo then
                 local TagPos, Vis5 = WorldToViewportPoint(CurrentCamera, locs.TagPos.p)
@@ -338,7 +336,7 @@ function boxBase:Update()
             else
                 self.Components.Tracer.Visible = false
             end
-        end
+        end)
 
         function ESP:Add(obj, options)
             if not obj.Parent and not options.RenderInNil then
@@ -505,4 +503,8 @@ function boxBase:Update()
             end
         end)
 
-return ESP
+        return ESP
+
+    end
+
+end
