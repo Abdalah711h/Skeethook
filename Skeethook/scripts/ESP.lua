@@ -241,6 +241,9 @@ function boxBase:Update()
     end
 
     -- fucking around with this might not work might do who knows
+    if ESP.Chams then
+
+    end
 
             if ESP.ShowInfo then
                 local TagPos, Vis5 = WorldToViewportPoint(CurrentCamera, locs.TagPos.p)
@@ -315,6 +318,7 @@ function boxBase:Update()
             else
                 self.Components.Tracer.Visible = false
             end
+        end
 
         function ESP:Add(obj, options)
             if not obj.Parent and not options.RenderInNil then
@@ -481,7 +485,4 @@ function boxBase:Update()
             end
         end)
 
-        return ESP
-
-    end
-
+return ESP
