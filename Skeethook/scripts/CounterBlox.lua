@@ -616,10 +616,6 @@ VisualsTabCategoryPlayers:AddToggle("Boxes", false, "VisualsTabCategoryPlayersBo
     ESP.Boxes = val
 end)
 
-VisualsTabCategoryPlayers:AddToggle("Chams", false, "VisualsTabCategoryPlayersChams", function(val)
-    ESP.Chams = val
-end)
-
 VisualsTabCategoryPlayers:AddToggle("Show Team", false, "VisualsTabCategoryPlayersShowTeam", function(val)
     ESP.ShowTeam = val
 end)
@@ -642,11 +638,6 @@ end)
 VisualsTabCategoryPlayers:AddColorPicker("Enemy Color", Color3.new(1,0,0), "VisualsTabCategoryPlayersEnemyColor", function(val)
     ESP.EnemyColor = val
 end)
-
-VisualsTabCategoryPlayers:AddColorPicker("Chams Color", Color3.new(1,0,0), "VisualsTabCategoryPlayersChamsColor", function(val)
-    ESP.ChamsColor = val
-end)
-
 
 local VisualsTabCategoryDroppedESP = VisualsTab:AddCategory("Dropped ESP", 1)
 

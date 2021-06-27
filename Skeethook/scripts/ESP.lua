@@ -240,11 +240,6 @@ function boxBase:Update()
         self.Components.Quad.Visible = false
     end
 
-    -- fucking around with this might not work might do who knows
-    if ESP.Chams then
-
-    end
-
             if ESP.ShowInfo then
                 local TagPos, Vis5 = WorldToViewportPoint(CurrentCamera, locs.TagPos.p)
 
