@@ -156,7 +156,7 @@ local library = {
     pointers = {},
     settings = {
         guiname = "Skeethook",
-		title = "Skeethook Verson 0.2.0", -- For a major update middle for minor update last if major = 10 change the first one
+		title = "Skeethook  V0.2.1", -- For a major update middle for minor update last if major = 10 change the first one
 		logo = "rbxassetid://4350178803", -- "http://www.roblox.com/asset/?id=6597976562",
         footer = " By Legend developer team",
         modal = true,
