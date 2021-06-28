@@ -20,3 +20,6 @@
     For personal contact you can contact me @ discord : 
     
     Shae#0666 
+
+
+As the official Hexagon has been discontinued PLEASE for fuck sake dont anyone call this a continuation of Hexagon fuck you.
