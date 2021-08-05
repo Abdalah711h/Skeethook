@@ -1,5 +1,5 @@
 <p align="center">
-    ꜱᴋᴇᴇᴛʜᴏᴏᴋ
+    ꜱᴋᴇᴇᴛʜᴏᴏᴋ (DISCONTINUED FOR NOW :( )
 
     NOTE : This script is made for CounterBlox (CB)
 
